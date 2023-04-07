@@ -4,11 +4,6 @@ import { useState } from 'react';
 export const ContactForm = ({ onSubmit }) => {
   const nameInputId = nanoid();
 
-  const [contact, setContacts] = useState({
-    id: '',
-    name: '',
-    number: '',
-  });
   const [id, setID] = useState('');
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
